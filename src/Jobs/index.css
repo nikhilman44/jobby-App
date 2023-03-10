@@ -1,0 +1,124 @@
+.job-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50%;
+  padding-left: 90%;
+}
+.no-job-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+.no-job-image {
+  width: 50%;
+}
+.job-sub-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  margin: auto;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 57%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.profile-card {
+  background-size: cover;
+  border-radius: 15px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  padding: 25px;
+}
+.profile-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border-width: 0;
+}
+.profile {
+  font-size: 16px;
+  color: #b6c5ff;
+  font-weight: 500;
+}
+.name {
+  font-size: 22px;
+  color: #6366f1;
+  font-weight: 610;
+}
+.horizontal-line {
+  color: #ffffff;
+  width: 100%;
+  margin-top: 40px;
+}
+.employment-title {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 550;
+}
+.employment-type {
+  list-style-type: none;
+  padding: 0;
+}
+.list-item {
+  margin-top: 12px;
+}
+.lable {
+  font-size: 13px;
+  color: #ffffff;
+  margin-left: 25px;
+}
+.search-box {
+  display: flex;
+  justify-content: flex-start;
+}
+.input-element {
+  height: 36px;
+  width: 300px;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 12px;
+}
+.search-icon {
+  height: 14px;
+  width: 14px;
+  color: #ffffff;
+  margin-top: 3px;
+}
+.search-icon-box {
+  background-color: #202020;
+  padding: 5px;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+}
+.jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
